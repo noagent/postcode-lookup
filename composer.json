@@ -1,5 +1,5 @@
 {
-    "name": "lodge/postcode-lookup",
+    "name": "bstoy/postcode-lookup",
     "description": "A postcode lookup utility using the Google Maps API, ready to use with Laravel 4.",
     "version": "0.2.0",
     "license": "MIT",
