@@ -1,6 +1,6 @@
 <?php
 
-namespace Lodge\Postcode;
+namespace Bstoy\Postcode;
 
 use RuntimeException;
 

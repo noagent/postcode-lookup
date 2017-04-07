@@ -1,4 +1,4 @@
-<?php namespace Lodge\Postcode\Facades;
+<?php namespace Bstoy\Postcode\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

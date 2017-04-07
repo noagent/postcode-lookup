@@ -3,7 +3,7 @@
 class PostcodeLookupTests extends PHPUnit_Framework_TestCase {
 
 	/**
-	 * @var \Lodge\Postcode\Postcode
+	 * @var \Bstoy\Postcode\Postcode
 	 */
 	private $postcode;
 
@@ -16,7 +16,7 @@ class PostcodeLookupTests extends PHPUnit_Framework_TestCase {
 	{
 		parent::setUp();
 
-		$this->postcode = new Lodge\Postcode\Postcode();
+		$this->postcode = new Bstoy\Postcode\Postcode();
 	}
 
 	/** @test */

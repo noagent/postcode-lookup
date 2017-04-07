@@ -1,4 +1,4 @@
-<?php namespace Lodge\Postcode;
+<?php namespace Bstoy\Postcode;
 
 class Postcode {
 
