@@ -89,7 +89,7 @@ class Postcode {
 		$sublocality   = '';
 		$town          = '';
 		$county        = '';
-		$country       = '';
+        $country_code  = '';
 
 		// Process the return
 		foreach ($address_data as $value) {
@@ -117,6 +117,7 @@ class Postcode {
 			elseif (array_search('country', $value->types) !== FALSE)
 			{
 				$country = $value->long_name;
+                $country_code = $value->short_name;
 			}
 		}
 
@@ -129,6 +130,7 @@ class Postcode {
 			'town'          => $town,
 			'county'        => $county,
 			'country'       => $country,
+            'country_code'  => $country_code,
 			'latitude'      => $coords['latitude'],
 			'longitude'     => $coords['longitude']
 		);
