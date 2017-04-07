@@ -56,6 +56,7 @@ From within your controller you can call:
 		'town'          => 'London',
 		'county'        => 'Greater London',
 		'country'       => 'United Kingdom',
+		'country_code'  => 'GB',
 		'latitude'      => 51.489117499999999,
 		'longitude'     => -0.1579016
 	);
