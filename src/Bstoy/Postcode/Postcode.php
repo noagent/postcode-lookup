@@ -117,11 +117,8 @@ class Postcode {
 			elseif (array_search('country', $value->types) !== FALSE)
 			{
 				$country = $value->long_name;
-			}
-            elseif (array_search('country', $value->types) !== FALSE)
-            {
                 $country_code = $value->short_name;
-            }
+			}
 		}
 
 		// Prepare the response
