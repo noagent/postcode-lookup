@@ -89,6 +89,7 @@ class Postcode {
 		$sublocality   = '';
 		$town          = '';
 		$county        = '';
+        $country       = '';
         $country_code  = '';
 
 		// Process the return
